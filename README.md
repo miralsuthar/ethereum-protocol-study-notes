@@ -14,3 +14,8 @@ Huge respect and utmost gratitude to the mentors: Mario, Josh and all the speake
 
 The lecture series contains 24 lectures. I have started making notes from Lecture 2 as the first one was introductory.
 
+Following are the links to the notes or refer the notes folder:
+
+1. [Ethereum Execution Overview by lightclient](/notes/lec-02-ethereum-execution-overview.md)
+
+
