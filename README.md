@@ -1,1 +1,16 @@
 # Ethereum Protocol Studies Notes
+
+I started learning about Ethereum protocol around Feb 2025, with one aim to understand "How Ethereum really works?". And in March 2025, I came across Ethereum Protocol Studies (EPS): a study group to prepare and onboard fellows for Ethereum Protocol Fellowship.
+
+For more info on EPF, refer [EPF.wiki](https://epf.wiki).
+
+The study resources provided by EPS is phenomenal and might sound overwhelming at first. But anything new will always be overwhelming.
+
+This repository is my notes to all the new things I learnt about Ethereum. These notes represents the journey I went through to learn about Ethereum protocol.
+
+And man, I love the decision I made to learn about ethereum like this! I assure you this, you will definitely have some clue of how Ethereum works at the end of this cohort. These lecture notes are the compilation of the speakers, their slides, all kinds of specificaitons, articles and podcasts. Again, it might seem daunting but trust me it will all be worth it.
+
+Huge respect and utmost gratitude to the mentors: Mario, Josh and all the speakers who helped me a lot to learn about this wonderful piece i.e. Ethereum.
+
+The lecture series contains 24 lectures. I have started making notes from Lecture 2 as the first one was introductory.
+
