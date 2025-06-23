@@ -143,7 +143,6 @@ The technical understanding of a **valid pending transaction** is:
 - *the data provided in the transaction leads to a valid state transition when passed through the stf.*
 - *and other factors* **which we will discuss in future.**
 
->[PseudoCode]
 >```go
 >GAS_LIMIT = 30_000_000
 >
@@ -167,20 +166,16 @@ The technical understanding of a **valid pending transaction** is:
 >}
 >```
 
->[TxPool]
 >The `TxPool.Pool` maintains the ***ordered list*** (based on the *gas price*) of transactions i.e. order by their value that helps in building the *most profitable block* for the execution client. This is a simplified summary; the actual situation is more *nuanced*.
 >
  Read `go-ethereum/core/txpool.go` for more information.
 
 **Gas Limit** is required for Ethereum to stop transactions to consume too much computation. It prevents excessive use of network resources by putting a cap on the work that can be done.
 
->[Fact]
 >On February 04, 2025, Ethereum increased the `gas_limit` from **30 million** (last increased in 2021) to ***36 million*** units. (Validators initiated this shift without a hard fork by tweaking node configurations)[^1]
 
->[Context]
 >`Environment` discussed in the `build()` is denoted as `Context` in *go-ethereum* i.e. in `go-ethereum/core/state/snapshot/context.go`.
 
->[Finalize]
 > Once the `gasUsed` reaches the `gas_limit`, the `core.finalize()` runs to *produce a fully assembled block*.
 > The `finalize()` does some calculation before assembling the block, for example, calculating the receipts root, transaction root, withdrawals root, etc.
 > Read `FinalizeAndAssemble()` in `go-ethereum/consensus/beacon/consensus.go`
@@ -222,7 +217,6 @@ abort, results := bc.engine.VerifyHeaders(bc, headers)
 
 Header verification happens through Beacon (a consensus engine that combines the eth1 consensus i.e. ethash or clique, and proof-of-stake algorithm)
 
->[Code]
 >```go
 >// source: go-ethereum/consensus/beacon/consensus.go in `VerifyHeader`
 >// Read `verifyHeader()` and `verifyHeaders()` (Batched version) for more information on header verification
@@ -242,7 +236,6 @@ Some example of header verification by `beacon.verifyHeaders()` are:
 
 And finally after going through a lot more checks and affirmations,
 
->[Note]
 >An important functionality of `InsertChain()` is to able to due varied checks in the case of a *Reorganization* or *Reorg*. Read `blockchain.go` for more information related to `reorg`, `setCanonical` and `InsertBlockWithoutSetHead`.
 >
 >`InsertBlockWithoutSetHead` **executes** the block, runs the necessary verification upon it and then *persist the block and the associate state into the database*. The key difference between the `InsertChain` is it *won't do the canonical chain updating*. It **relies** on the additional `SetCanonical` call to *finalize the entire procedure*.
