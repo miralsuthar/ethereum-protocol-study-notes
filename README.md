@@ -1,6 +1,6 @@
 # Ethereum Protocol Studies Notes
 
-I started learning about Ethereum protocol around Feb 2025, with one aim to understand "How Ethereum really works?". And in March 2025, I came across Ethereum Protocol Studies (EPS): a study group to prepare and onboard fellows for Ethereum Protocol Fellowship.
+I started my journey to understand Ethereum protocol around Feb 2025, with one aim to understand "How Ethereum really works?". And in March 2025, I came across Ethereum Protocol Studies (EPS): a study group to prepare and onboard fellows for Ethereum Protocol Fellowship.
 
 For more info on EPF, refer [EPF.wiki](https://epf.wiki).
 
