@@ -2,6 +2,8 @@
 
 More info about lecture: [EPF.wiki](https://epf.wiki/#/eps/week2)
 
+## Overview
+
 This lecture provides an overview of execution client.The main themes of the lecture are:
 
 * Block Validation
@@ -60,6 +62,7 @@ All the topics are briefly discussed and will be discussed in detail in upcoming
 * [Sync modes](#sync-modes)
   * [Snap sync v/s Full sync](#snap-sync-vs-full-sync)
   * [Q&A: Snap sync](#qa-snap-sync)
+* [JSON RPC API](#json-rpc-api)
 
 <!-- mtoc-end -->
 
@@ -495,5 +498,8 @@ Following are the steps:
 
 >Remember when starting from a checkpoint, we're just trusting that route is correct, and then the data that we are getting back has a witness against this root.
 
-- [ ] Read more about JSON RPC client from `ethereum/execution-apis`.
+## JSON RPC API
+JSON RPC API is not covered in this lecture.
+
+- [ ] Read more about JSON RPC client from [ethereum/execution-apis](https://github.com/ethereum/execution-apis).
 
