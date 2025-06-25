@@ -1,6 +1,6 @@
-# Ethereum Testing & Security Overview by Mario Vega
+# Lec-4: Ethereum Testing & Security Overview by Mario Vega
 
-More info about lecture: [EPF.wiki](https://epf.wiki/#/eps/week2)
+More info about lecture: [EPF.wiki](https://epf.wiki/#/eps/week4)
 
 ## Overview
 
