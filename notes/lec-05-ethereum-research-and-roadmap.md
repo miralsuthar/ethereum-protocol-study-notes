@@ -346,17 +346,27 @@ Toxic MEV disappears completely. Non-toxic MEV (arbitrage and liquidation) would
 
 ## Questions
 
-*Ques)* What is the highest priority topic on the roadmap according to you?
-*Ans)* Verkle tree and increase in the blob space would really help move forward and should be implemented in the next hard-fork.
+*Ques.* What is the highest priority topic on the roadmap according to you?
 
-*Ques)* Which topic still need a lot of research or figuring out?
-*Ans)* ePBS has a lot of tradeoffs. It is a very typical problem to solve especially keeping various concepts in mind. For example, Inclusion lists with stateless validators don't mesh well. That's another area of active research. The main point to fear is if the core-devs decide to settle for the least bad design because PBS is a super cool concept.
+*Ans.* Verkle tree and increase in the blob space would really help move forward and should be implemented in the next hard-fork.
 
-*Ques)* Which one single feature that simplifies all the complexity that resides in ethereum currently?
-*Ans)* All the features introduced in Ethereum roadmap are all well thought through and carefully meddled. I'd be surprised if something comes up that solves everything in a much simpler way, but welcome it for sure.
+---
 
-*Ques)* What time till ossification?
-*Ans)* The roadmap itself is mostly oifiable
+*Ques.* Which topic still need a lot of research or figuring out?
+
+*Ans.* ePBS has a lot of tradeoffs. It is a very typical problem to solve especially keeping various concepts in mind. For example, Inclusion lists with stateless validators don't mesh well. That's another area of active research. The main point to fear is if the core-devs decide to settle for the least bad design because PBS is a super cool concept.
+
+---
+
+*Ques.* Which one single feature that simplifies all the complexity that resides in ethereum currently?
+
+*Ans.* All the features introduced in Ethereum roadmap are all well thought through and carefully meddled. I'd be surprised if something comes up that solves everything in a much simpler way, but welcome it for sure.
+
+---
+
+*Ques.* What time till ossification?
+
+*Ans.* The roadmap itself is mostly oifiable
 at this point. There's general agreement that we'll do **Verkle trees**, even though it's super complex and risky in terms of transitioning. It's something we know we have to do. In 10-15 years, when all this is done, it will be much harder to propose changes on the same level of risk as the stuff we're about to undertake.
 
 There's always a possibility that something happens and things might change, but there has to be a good reason. I'd rather see that door stay open a bit, even though it's an uphill battle that's becoming harder at each forge. *Ossification is the process of hardening the protocol, making upgrades more challenging.*

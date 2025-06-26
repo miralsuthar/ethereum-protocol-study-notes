@@ -193,12 +193,15 @@ There is no existing EVM client in python, hence to execute a transaction with e
 >***Note***: Although Solidity is an excellent DSL for smart contracts, but often solidity optimizations can make tests unreliable hence are often ignored during the test of EVM opcodes.
 
 #### EIPs
+
 It is crucial to *preserve EIP ideas in the test source code*. This safeguards against testing an outdated EIP version. If the EIP changes and execution client implements a new version, causing test failures, then it is easier to pinpoint an EIP version that caused such an incident.
 
 The **output** is another crucial piece of testing as we get all our insights from here. The fixtures are readable JSON fiels representing the test output. They are in three formats:
+
 1. the state tests (transaction specific)
 2. blockchain tests (entire blockchain)
 3. Hive format (discussed below)
+
 If any result differs or the client can't consume the fixture, then it indicates as an *error*. This is procedure to find bugs in execution clients.
 
 ### Ethereum Test of Execution Demo
@@ -238,8 +241,7 @@ Tools:
 
 >An end-to-end test harness of Ethereum.
 
-Hive is a framework that gives testers a way of
-*spawning tests* and *clients inside tests*—namely, execution and consensus clients.
+Hive is a framework that gives testers a way of *spawning tests* and *clients inside tests*—namely, execution and consensus clients.
 
 It is testing environment to test a particular edge cases that are to be tested in simulators.
 
@@ -248,6 +250,7 @@ It is testing environment to test a particular edge cases that are to be tested 
 >Hive Server is the main orchestrator.
 
 There are three actors involved:
+
 - *Hive Server*
 - *Execution or Consensus Client*
 - *Simulator*: a program containing certain instructions to run the test.
@@ -268,6 +271,7 @@ The Hive format contains the *engine API directives from the consensus client*, 
 ## Live Testnets
 
 There are various types of live tesnets:
+
 1. **Devnets**: Limited node count that are used to verify proof of concept or early stages of hard-forks.
 2. **Shadow-forks**: Limited node count forks that are configured to follow Ethereum mainnet, but have an early hard-fork configuration in order to test real network activity. More info on [shadow-forks](https://github.com/timbeiko/eth-roadmap-faq/blob/hackmd/README.md#shadow-forking).
 3. **Public Testnets**: Sepolia, Holesky
@@ -275,16 +279,19 @@ There are various types of live tesnets:
 ## Most common issues to consider when testing
 
 Execution Layer side:
+
 - *Valid invalidation*: client invalidates a block that fully complies with Ethereum specs
 - *Invalid validation*: client validates a block that does not comply with Ethereum specs
 - *DoS during block execution*: client takes too much time to process a block due to a transaction
 
 Consensus Layer side:
-- Faulty clients and finalization based on faulty node majority scenarios:
-  - *<33%*: based on faulty node majority scenarios can cause missed slot but chain will still finalize
-  - *33%+*: can cause delayed finality
-  - *50%+*: can disrupt forkchoice
-  - *66%+*: can finalize an incorrect chain
+
+Faulty clients and finalization based on faulty node majority scenarios:
+
+- *<33%*: based on faulty node majority scenarios can cause missed slot but chain will still finalize
+- *33%+*: can cause delayed finality
+- *50%+*: can disrupt forkchoice
+- *66%+*: can finalize an incorrect chain
 
 ## Bug Bounties
 
