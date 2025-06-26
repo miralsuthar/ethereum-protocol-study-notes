@@ -181,7 +181,7 @@ EELS is written in python, executable, optimised for readability.
 
 A great playground for prototyping new EIPs.
 
->Research <------EELS-----EEST-------> Client Implementation
+> Research <------EELS-----EEST-------> Client Implementation
 
 ([EEST](https://ethereum.github.io/execution-spec-tests/pr-929-preview/library/cli/))
 
