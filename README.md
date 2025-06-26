@@ -22,4 +22,5 @@ Following are the links to the notes or refer the notes folder:
 4. [Ethereum research and roadmap by Domothy](/notes/lec-05-ethereum-research-and-roadmap.md)
 5. [Ethereum Execution Layer & Consensus Layer Technical Specs by Hsiao Wei & Sam Wilson](/notes/lec-06-el-cl-technical-specs.md)
 6. [Sharding & DAS by Dankrad Feist](/notes/lec-07-sharding-and-das.md)
+7. [Execution Client Architecture by Dragan Rakita](/notes/lec-08-execution-client-architecture.md)
 
