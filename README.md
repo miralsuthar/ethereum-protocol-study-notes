@@ -21,4 +21,5 @@ Following are the links to the notes or refer the notes folder:
 3. [Ethereum Testing & Security Overview by Mario Vega](/notes/lec-04-ethereum-testing-and-security-overview.md)
 4. [Ethereum research and roadmap by Domothy](/notes/lec-05-ethereum-research-and-roadmap.md)
 5. [Ethereum Execution Layer & Consensus Layer Technical Specs by Hsiao Wei & Sam Wilson](/notes/lec-06-el-cl-technical-specs.md)
+6. [Sharding & DAS by Dankrad Feist](/notes/lec-07-sharding-and-das.md)
 
