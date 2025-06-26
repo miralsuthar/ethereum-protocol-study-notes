@@ -48,7 +48,7 @@ This lectures is all about the future of Ethereum. The major focus is around:
 | End                            | 1:30:31 |
 
 
-## Table of content
+## Table of contents
 
 <!-- mtoc-start -->
 

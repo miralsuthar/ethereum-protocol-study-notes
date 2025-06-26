@@ -43,7 +43,7 @@ This lecture provides an overview of:
 | END                                                                             | 1:52:08 |
 
 
-## Table of content
+## Table of contents
 
 <!-- mtoc-start -->
 

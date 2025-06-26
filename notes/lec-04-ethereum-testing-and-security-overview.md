@@ -41,7 +41,7 @@ This lecture is all about various testing strategies, libraries, and tools used 
 | Ends                                        | 1:50:48 |
 
 
-## Table of content
+## Table of contents
 
 <!-- mtoc-start -->
 
