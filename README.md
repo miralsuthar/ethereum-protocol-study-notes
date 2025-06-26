@@ -24,4 +24,5 @@ Following are the links to the notes or refer the notes folder:
 6. [Sharding & DAS by Dankrad Feist](/notes/lec-07-sharding-and-das.md)
 7. [Execution Client Architecture by Dragan Rakita](/notes/lec-08-execution-client-architecture.md)
 8. [Verkle Trees by EF Stateless Team](/notes/lec-09-verkle-tree.md)
+9. [Consensus Client Architecture by Paul Harris](/notes/lec-10-consensus-client-architecture.md)
 
