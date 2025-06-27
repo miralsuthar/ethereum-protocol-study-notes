@@ -26,4 +26,5 @@ Following are the links to the notes or refer the notes folder:
 8. [Verkle Trees by EF Stateless Team](/notes/lec-09-verkle-tree.md)
 9. [Consensus Client Architecture by Paul Harris](/notes/lec-10-consensus-client-architecture.md)
 10. [Protocol Services by Barnabé Monnot](/notes/lec-11-protocol-services.md)
+11. [The Purge by Piper Merriam](/notes/lec-13-the-purge.md)
 

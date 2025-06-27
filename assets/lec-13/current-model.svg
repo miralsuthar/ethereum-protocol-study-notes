@@ -1,0 +1,51 @@
+<svg width="370" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .node-rect {
+        fill: #f8f8f8;
+        stroke: #555;
+        stroke-width: 1px;
+        rx: 8px;
+        ry: 8px;
+      }
+      .title-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #000;
+      }
+      .subtitle-text {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 16px;
+        text-anchor: middle;
+        fill: #666;
+      }
+      .arrow {
+        stroke: #555;
+        stroke-width: 2px;
+        fill: none;
+        marker-end: url(#arrowhead);
+      }
+    </style>
+    <!-- Arrow marker -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555" />
+    </marker>
+  </defs>
+
+  <!-- Client Node -->
+  <rect x="10" y="60" width="120" height="80" class="node-rect"/>
+  <text x="70" y="90" class="title-text">Client</text>
+  <text x="70" y="115" class="subtitle-text">HEAVY</text>
+
+  <!-- Network Node -->
+  <rect x="240" y="60" width="120" height="80" class="node-rect"/>
+  <text x="300" y="90" class="title-text">Network</text>
+  <text x="300" y="115" class="subtitle-text">LIGHT</text>
+
+  <!-- Arrow from Client to Network -->
+  <path d="M 130 100 L 240 100" class="arrow"/>
+</svg>
