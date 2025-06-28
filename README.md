@@ -26,5 +26,7 @@ Following are the links to the notes or refer the notes folder:
 8. [Verkle Trees by EF Stateless Team](/notes/lec-09-verkle-tree.md)
 9. [Consensus Client Architecture by Paul Harris](/notes/lec-10-consensus-client-architecture.md)
 10. [Protocol Services by Barnabé Monnot](/notes/lec-11-protocol-services.md)
-11. [The Purge by Piper Merriam](/notes/lec-13-the-purge.md)
+11. [Devops & Testnets by Parithosh Jayanthi](/notes/lec-12-devops-and-testnets.md)
+12. [The Purge by Piper Merriam](/notes/lec-13-the-purge.md)
+13. [Percompiles by Danno Ferrin](/notes/lec-14-precompiles.md)
 
