@@ -30,4 +30,4 @@ Following are the links to the notes or refer the notes folder:
 12. [The Purge by Piper Merriam](/notes/lec-13-the-purge.md)
 13. [Percompiles by Danno Ferrin](/notes/lec-14-precompiles.md)
 14. [Consensus upgrades by Francesco D'Amato](/notes/lec-15-consensus-upgrades.md)
-
+15. [Gasper by Ben Edgington](/notes/lec-16-gasper.md)
