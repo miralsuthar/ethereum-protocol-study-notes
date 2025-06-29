@@ -32,3 +32,5 @@ Following are the links to the notes or refer the notes folder:
 14. [Consensus upgrades by Francesco D'Amato](/notes/lec-15-consensus-upgrades.md)
 15. [Gasper by Ben Edgington](/notes/lec-16-gasper.md)
 16. [EVM by Pawel Bylica](/notes/lec-17-evm.md)
+17. [devp2p by Felix Lange](/notes/lec-18-devp2p.md)
+
