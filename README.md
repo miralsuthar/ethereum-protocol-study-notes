@@ -1,6 +1,6 @@
 # Ethereum Protocol Studies Notes
 
-I started my journey to understand Ethereum protocol around Feb 2025, with one aim to understand "How Ethereum really works?". And in March 2025, I came across Ethereum Protocol Studies (EPS): a study group to prepare and onboard fellows for Ethereum Protocol Fellowship.
+I started my journey to understand Ethereum protocol around Feb 2025, with one aim: "to understand how Ethereum really works?". And in March 2025, I came across Ethereum Protocol Studies (EPS): a study group to prepare and onboard fellows for Ethereum Protocol Fellowship.
 
 For more info on EPF, refer [EPF.wiki](https://epf.wiki).
 
@@ -8,11 +8,11 @@ The study resources provided by EPS is phenomenal and might sound overwhelming a
 
 This repository is my notes to all the new things I learnt about Ethereum. These notes represents the journey I went through to learn about Ethereum protocol.
 
-And man, I love the decision I made to learn about ethereum like this! I assure you this, you will definitely have some clue of how Ethereum works at the end of this cohort. These lecture notes are the compilation of the speakers, their slides, all kinds of specificaitons, articles and podcasts. Again, it might seem daunting but trust me it will all be worth it.
+And man, I love the decision I made to learn about ethereum like this! I assure you this, you will definitely have more info on how Ethereum works at the end. These lecture notes are the compilation of the speakers, their slides, various ethereum specificaitons, articles and podcasts. Again, it might seem daunting but trust me it will all be worth it.
 
-Huge respect and utmost gratitude to the mentors: Mario, Josh and all the speakers who helped me a lot to learn about this wonderful piece i.e. Ethereum.
+Huge respect and utmost gratitude to the mentors: Mario Havel, Josh Davis and all the speakers who helped me learn about this wonderful piece i.e. Ethereum.
 
-The lecture series contains 24 lectures. I have started making notes from Lecture 2 as the first one was introductory.
+The lecture series contains 24 lectures of which the first is [introduction to EPS](https://epf.wiki/#/eps/week0). I have started making notes from Lecture 2.
 
 Following are the links to the notes or refer the notes folder:
 
@@ -40,3 +40,6 @@ Following are the links to the notes or refer the notes folder:
 22. [EL Data Structures by Gary Schulle and Karim](/notes/lec-23-el-data-structures.md)
 23. [Pectra and Fusaka by Marius Van Der Wijden](/notes/lec-24-pectra-and-fusaka.md)
 
+There is much more to Ethereum, but after these lectures you must be comfortable enough to dabble on your own. EPS is a launchpad towards the unknown i.e. Ethereum.
+
+If you have any issues with the notes, either create an issue or dm me [x.com/skeshav25](https://x.com/skeshav25). And, If you loved the notes, would appreciate a star :).
