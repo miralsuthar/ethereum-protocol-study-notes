@@ -37,3 +37,4 @@ Following are the links to the notes or refer the notes folder:
 19. [Validator Architecture by James He](/notes/lec-20-validator-architecture.md)
 20. [Engine API by Mikhail Kalinin](/notes/lec-21-engine-api.md)
 21. [CL Data structure by Michael Sproul](/notes/lec-22-cl-data-structures.md)
+22. [EL Data Structures by Gary Schulle and Karim](/notes/lec-23-el-data-structures.md)
