@@ -40,6 +40,10 @@ Following are the links to the notes or refer the notes folder:
 22. [EL Data Structures by Gary Schulle and Karim](/notes/lec-23-el-data-structures.md)
 23. [Pectra and Fusaka by Marius Van Der Wijden](/notes/lec-24-pectra-and-fusaka.md)
 
+Throughout my learning experience through EPS, I felt like Ethereum was just enough complicated for me to understand (thanks to the core-devs). The layers of abstractions were very explicit with enough good resources.
+
+One advice is always refer specifications when in doubt as it has almost all the answers to the questions you might have.
+
 There is much more to Ethereum, but after these lectures you must be comfortable enough to dabble on your own. EPS is a launchpad towards the unknown i.e. Ethereum.
 
 If you have any issues with the notes, either create an issue or dm me [x.com/skeshav25](https://x.com/skeshav25). And, If you loved the notes, would appreciate a star :).
