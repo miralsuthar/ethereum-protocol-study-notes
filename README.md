@@ -35,5 +35,5 @@ Following are the links to the notes or refer the notes folder:
 17. [devp2p by Felix Lange](/notes/lec-18-devp2p.md)
 18. [libp2p by Dapplion](/notes/lec-19-libp2p.md)
 19. [Validator Architecture by James He](/notes/lec-20-validator-architecture.md)
-
 20. [Engine API by Mikhail Kalinin](/notes/lec-21-engine-api.md)
+21. [CL Data structure by Michael Sproul](/notes/lec-22-cl-data-structures.md)
